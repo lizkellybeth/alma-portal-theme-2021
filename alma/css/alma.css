@@ -1,0 +1,158 @@
+/*alma silhouette */
+#content-header > .container {
+    margin-top: 0px;
+    background-image: url(../../alma/images/alma-silhouette.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+#content-header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#content-header > .container > #portal-header {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#portal-breadcrumbs {
+    display: none;
+}
+
+/* dropdown menus */
+#portal-globalnav-wrapper > .container {
+    width: 100%;
+} 
+
+/* central content area */
+#visual-portal-wrapper > div > div.container {
+         width: 100%;
+}
+
+#portal-breadcrumbs > div {
+         width: 100%;
+}
+
+div .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#main-container.home {
+    border-style: solid;
+    border-width: 0px;
+    display: inline-block;
+    width: 68%;
+    margin: 0px;
+}
+
+#alma-sci-hi  {
+    display: none;   
+}
+
+#alma-sci-hi.home {
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    vertical-align: top;
+    margin: 10px;
+    background-color:  #00437c;
+    color: white;
+    text-align: left;
+    padding: 10px;
+
+}
+
+#alma-news-div  {
+    display: none;   
+}
+
+#alma-news-div.home {
+    display: block;
+    border-style: solid;
+    border-width: 0px;
+    width: 100%;
+    height: 15em;
+    overflow: overlay; 
+    margin-top: 1em;
+}
+
+
+#alma-central.home{
+    width: 100%;
+    left: 0px;
+}
+
+#alma-col1.home {
+    display: none;
+}
+
+#alma-central {
+    
+}
+
+#alma-news-div .portletWrapper.home {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+ul#portal-globalnav.plone-nav li a {
+    /*font-size: 14px;   */
+}
+
+#portal-breadcrumbs {
+    margin: 0px;
+}
+
+#mainnavigation > nav.plone-navbar {
+    margin-bottom: 0px;
+}
+
+header {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+header.portletHeader {
+    margin: 0px;
+}
+
+#portletWrapper  > section > header {
+    padding-top: 2px;
+    padding-right: 15px;
+    padding-bottom: 2px;
+    padding-left: 15px;
+    margin: 0px;
+}
+
+#sci-hi-img {
+    width: 100%;
+}
+
+#alma-highlights h3 {
+    margin-top: 0px;
+}
+
+#sci-hi-figure{
+    float: right;
+    margin: 0 0 6px 6px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17);
+    overflow: hidden;
+}
+
+#sci-hi-caption {
+    color: white;
+    font-size: x-small;
+    font-family: monospace;
+}

@@ -1,0 +1,41 @@
+#fieldset-alma-c2 {
+   margin-left: 0px;
+}
+
+.alma_font_normal * {
+  font-weight:normal;
+}
+
+.alma_font_bold * {
+  font-weight:bold;
+}
+
+.alma_highlight_row {
+  background-color: #CCCCCC;
+}
+
+.alma_project_row {
+  
+}
+
+.alma_minibold {
+  font-weight:bold;
+  font-size: .8em;
+}
+
+.alma_table_header {
+  background-color: #DDDDDD;
+}
+
+#alma-hpp-div {
+  height: 100%;
+  position: relative;
+}
+
+#alma-c2ddt-div {
+ height: 100%;
+}
+
+#alma-c1carryover-div {
+ height: 100%;
+}

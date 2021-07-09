@@ -1,0 +1,187 @@
+p.alma-status-header {
+  font-family: Avenir, Verdana, Lucida, Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+}
+
+.alma-status-container {
+    margin-top: .5em;
+    width: 80%;
+  border-style: dotted;
+    border-width: 0px;
+    display:inline;
+    font-size: 122%;
+}
+
+.alma-status-widget-title {
+    font-weight: bolder;
+  font-size: 0.8em;
+  top: .1em;
+    display: block;
+    color: #24538A;
+}
+
+.alma-status-widget-more{
+    font-weight: bolder;
+  font-size: 0.8em;
+  top: .1em;
+    color: #24538A;
+    display: block;
+    text-align: right;
+    margin-right: 1em;
+}
+
+
+.alma-status-widget-table {
+  width: 100%;
+  text-align: left;
+}
+
+.alma-status-widget-table th, td {
+    padding: .3em;
+}
+
+.alma-status-widget-table th {
+    padding: .3em;
+    font-weight: bolder;
+    font-size: .7em;
+}
+
+.alma-status-widget-table td {
+    padding: .3em;
+    font-weight: normal;
+    font-size: .7em;
+}
+
+.alma-status-widget {
+  border-style: none;
+    border-width: 1px;
+  margin-left: .5em;
+  margin-right: .5em;
+  margin-bottom: .6em;
+  padding: .2em;
+  font-family: Avenir, Verdana, Lucida, Helvetica, Arial, sans-serif;
+}
+
+.alma-status-widget  td {
+  
+}
+
+.alma-status-inline {
+  display: inline-block;
+}
+
+#alma-new-observations {
+  width: 47%;
+}
+
+#alma-public-observations {
+  width: 47%;
+        vertical-align: top;
+}
+
+#alma-new-publications, #alma-weather {
+  width: 96.7%;
+}
+
+#alma-weather-div {
+  width: 100%;
+}
+
+#alma-weather-tbl {
+  width: 100%;
+}
+
+#alma-webcam {
+  width: 47%;
+}
+
+#alma-publications-count-div {
+    display: inline-block;
+    vertical-align: top; /* here */
+}
+
+#alma-publications-count{
+    font-family: Avenir, Verdana, Lucida, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+}
+
+#alma-publications-div, #alma-observations-div {
+    display: inline-block;
+    width: 100%;
+    /*overflow: scroll;*/
+}
+
+#alma-publications-div {
+  border-style: solid;
+  border-width: 1px;
+  border-top-width: 0px;
+  border-color: rgb(140, 172, 187);
+}
+
+.alma-publications-title {
+    font-size: .7em;
+    font-weight: normal;
+}
+
+
+.alma-observations-title {
+    font-size: .65em;
+    font-weight: bolder;
+}
+
+span.alma-publications-details {
+    display: block;
+    font-size: 0.7em;
+    text-decoration: none;
+}
+
+.alma-observations-details {
+    font-weight: normal;
+    font-size: 0.65em;
+}
+
+#alma-configuration {
+  width: 47%;
+    vertical-align: top;
+}
+
+#alma-configuration-latest {
+   height: 21em;
+   width: 30em;
+   margin-top: 1em;
+}
+
+#alma-webcam-iframe {
+   height: 310px;
+   width: 415px;
+}
+
+#alma-aladinlite-div {
+   height: 40em;
+   width: 60em;
+}
+
+#alma-mapquest {
+   height: 25em;
+   width: 415px;
+   margin-top: 1em;
+
+}
+
+#content #alma-recent-observations-tbl,  #content #alma-public-observations-tbl {
+  width: 100%;
+  margin: .2em;
+}
+
+#alma-baseline-config {
+  width: 96.5%;
+}
+
+#cyc4-sched-tbl {
+  width:100%;
+  align: center;
+}
+
+#almaFlipclock {
+    -moz-transform: scale(0.5);
+}
