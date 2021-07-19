@@ -9,12 +9,13 @@ function doLocalization(){
     var esoPortlet = $("a:contains('EU ARC News')").parent().parent().parent();  
     var naojPortlet = $("a:contains('NAOJ News')").parent().parent().parent();  
     var nraoPortlet = $("a:contains('NRAO News')").parent().parent().parent(); 
-    //alert($("a:contains('NAOJ News')").attr("href"));
     renameNewsPortlet();
 
+    esoPortlet.attr('background-image','++theme++alma-prototype-theme/images/eu-arc-nodes.jpg');
+    nraoPortlet.attr('background-image','++theme++alma-prototype-theme/images/eu-arc-nodes.jpg');
         
     if (url.indexOf("eso.org") >= 0){
-        console.log("found ESO!");
+        console.log("LOCALIZING TO ESO!");
         naojPortlet.remove();
         nraoPortlet.remove();
         $('#arclogo-img').attr('src','++theme++alma-prototype-theme/images/logo-eu.png');
@@ -22,22 +23,23 @@ function doLocalization(){
         return;
     }
     if (url.indexOf("nrao.edu") >= 0){
-        console.log("found NRAO!");
+        console.log("LOCALIZING TO NRAO!");
         naojPortlet.remove();
-        esoPortlet.remove();
+        //esoPortlet.remove();
+        nraoPortlet.remove();
         $('#arclogo-img').attr('src','++theme++alma-prototype-theme/images/logo-na-pride.png');
         $('#almalogo-anchor').attr('href','/');
         return;
     }
     if (url.indexOf("nao.ac.jp") >= 0){
-        console.log("found NAOJ!");
+        console.log("LOCALIZING TO NAOJ!");
         esoPortlet.remove();
         nraoPortlet.remove();
         $('#arclogo-img').attr('src','++theme++alma-prototype-theme/images/NAOJ_logo.png');
         $('#almalogo-anchor').attr('href','/');
         return;
     }
-    console.log("not sure what to localize! Defaulting to JAO...");
+    console.log("DEFAULT - LOCALIZING TO JAO...");
     //$('#arclogo-img').attr('src','++theme++alma-prototype-theme/images/logo-jao.png');
     //$('#almalogo-anchor').attr('href','/portal');
     $(document).prop('title', 'ALMA DEV Portal');

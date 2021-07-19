@@ -1,7 +1,7 @@
 var ALMA_BASE_URL = "/";
 $( document ).ready(function() {
-    if ((window.location.pathname == "/portal") || (window.location.pathname == "/portal/")){
-        ALMA_BASE_URL = "/portal/";
+    if ((window.location.pathname == "/plone5") || (window.location.pathname == "/plone5/"))   {
+        ALMA_BASE_URL = "/plone5/";
         displayHomePage();
         
     } else if (window.location.pathname === "/"){
@@ -10,10 +10,11 @@ $( document ).ready(function() {
     } else {
         displayDefault();
     }
+    console.log("ALMA_BASE_URL: " + ALMA_BASE_URL);
 });
 
 function displayHomePage(){
-    //alert("displayHomePage()");
+    console.log("displayHomePage()");
     getScienceHighlightURL();
     $("#main-container").addClass("home");
     $("#alma-news-div").addClass("home");
@@ -24,7 +25,7 @@ function displayHomePage(){
 }
 
 function displayDefault(){
-    //alert("displayDefault()");
+    console.log("displayDefault()");
     $("#main-container").removeClass("home");
     $("#alma-news-div").removeClass("home");
     $("#alma-sci-hi").removeClass("home");

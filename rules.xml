@@ -32,13 +32,12 @@
   
   
   
-
-  
-  
-  
+  <replace css:theme-children="#alma-menus" css:content-children="#portal-mainnavigation" method="raw" />
 
   <!-- move global nav -->
   <replace css:theme-children="#mainnavigation" css:content-children="#portal-mainnavigation" method="raw" />
+  
+  <after css:theme-children="#alma-mainnavigation" css:content="#portal-searchbox" method="raw" />
 
   <!-- move hero to top -->
   <replace css:theme-children="#hero .gigantic" css:content-children=".hero"/>
