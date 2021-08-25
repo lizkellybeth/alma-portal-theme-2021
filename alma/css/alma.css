@@ -31,7 +31,7 @@ body {
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    height: 175px;
+    height: 125px;
 }
 
 .outer-wrapper > .container {
@@ -46,6 +46,11 @@ body {
     background-color: #00437f;
     vertical-align: top;
     height: 125px;
+}
+
+#alma-news-div > * .portletItem > * {
+    text-shadow: 0 2px 3px rgba(0, 40, 60, 0.5);
+    font-weight: 400;
 }
 
 #portal-breadcrumbs {
@@ -89,17 +94,25 @@ div .row {
     border-style: solid;
     border-width: 0px;
     display: inline-block;
-    width: 30%;
+    width: 29%;
     height: 100%;
     vertical-align: top;
     margin: 0px;
     background-color:  #00437c;
     color: white;
     text-align: left;
-    padding-left: 20px;
+    padding-left: 14px;
     padding-right: 20px;
     padding-top: 2px;
-    
+
+}
+
+#alma-sci-hi.home > * {
+    align: left;
+}
+
+#sci-hi-figure {
+    margin-left: 0px;
 }
 
 #alma-news-div  {
@@ -196,7 +209,7 @@ header.portletHeader {
 
 #sci-hi-figure{
     float: right;
-    margin: 0 0 6px 6px;
+    margin: 0 0 6px 0px;
     border-radius: 4px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17);
     overflow: hidden;
@@ -256,17 +269,14 @@ header > .documentFirstHeading {
 /* alma status */
 #alma-news-div .portlet.portletStaticText.portlet-static-status .portletContent {
     height: 22em;
-    background-image: url(../../alma/images/alma-status.jpeg);
+    background-image: linear-gradient(180deg, rgba(255,255,255,.0) 32%, rgba(0,0,60,.3) 67%, rgba(0,0,60,.3) 100%), url('../../alma/images/alma-status.jpeg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-bottom: 0px;
+    
 }
 #alma-news-div .portlet.portletStaticText.portlet-static-status .portletContent p > * {
     color: white;
-}
-
-#portal-logo {
-    display: none;
 }
 
 .portlet .portletStaticText .portlet-static-status {
@@ -294,10 +304,6 @@ header > .documentFirstHeading {
     box-shadow: 0px 0px;
 }
 
-.container * div#portal-searchbox {
-    display: none;    
-}
-
 #plone-document-byline {
     display: none;
 }
@@ -311,4 +317,63 @@ header > .documentFirstHeading {
 
 #portal-searchbox {
     margin: 15px;
+}
+
+#portal-top {
+    margin: 0px;
+}
+
+#portal-logo {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+#alma-label-img {
+    display: inline-block;
+}
+
+#portal-top #portal-header {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#portal-logoxxx img {
+    margin: 10px;
+    margin-left: 16px;
+}
+
+.plone-navbar-nav > li label {
+    display:none;
+}
+
+#alma-news-div .portlet .portletFooter {
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+#mainnavigation > * .plone-nav > * li a {
+    width: 30em;
+    display: inline-block;
+}
+
+#mainnavigation > * .plone-nav .has_subtree .has_subtree > ul {
+    left: 34em;
+}
+
+#portal-header {
+    height:130px;
+}
+
+#searchGadget_form {
+    display: none;
+}
+
+.loop {
+    float: left;
+    height: 50px;
+    width: 50px;
 }

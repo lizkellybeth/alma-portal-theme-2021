@@ -1,0 +1,55 @@
+#alma-footer {
+    background-color: transparent;
+	bottom: 0px;
+	positionxx: fixed;
+    /*max-width: 114em;*/
+	width: 100%;
+    font-size: 120%;
+}
+
+#alma-siteactions, #alma-arcs {
+    display: inline;
+	white-space: nowrap;
+	list-style-image: none;
+	list-style-type: none;
+	margin: 1px 0 0 0;
+	height: auto;
+	line-height: 1.5em;
+	/*padding: 3px 2em 3px 0;*/
+}
+
+#alma-siteactions {
+    background-color: #24538A;
+    width: 74%;
+    float: left;   
+    text-align: center;
+    margin-left: 0%;
+}
+
+#alma-arcs  {
+    /*background-color: #9BD;*/
+    background-color: #24538A;
+    width: 26%;
+    float: right;   
+    text-align: center;
+    margin-right: 0%;
+}
+
+#alma-arcs li {
+    margin:  .5em;  
+}
+
+#alma-siteactions li a, #alma-arcs li a {
+    background-color: transparent;
+	border: none;
+	color: #EEE;
+	height: auto;
+	padding: 0.5em;
+	margin-right: 0.2em;
+	text-decoration: none;
+	text-transform: none;
+}
+
+#alma-siteactions li, #alma-arcs li {
+    display: inline;
+}

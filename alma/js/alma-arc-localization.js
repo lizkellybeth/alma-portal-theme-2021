@@ -3,6 +3,11 @@ $( document ).ready(function() {
     resizeAlmaPortlets();
 });
     
+$( window ).resize(function() {
+        console.log("window resize !!!!!! ###");
+        resizeAlmaPortlets();
+});
+
 function doLocalization(){
     var url = window.location.href; 
     console.log("doLocalization for: " + url);

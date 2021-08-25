@@ -2,8 +2,8 @@
 <html>
   <head>
     <title>Plone Theme</title>
-    <link rel="shortcut icon" type="image/x-icon"
-          href="barceloneta-favicon.ico" />
+    <!--<link rel="shortcut icon" type="image/x-icon" href="barceloneta-favicon.ico" />-->
+    <link rel="shortcut icon" type="image/png" href="alma/images/favicon.png"/>
     <link rel="apple-touch-icon"
           href="barceloneta-apple-touch-icon.png" />
     <link rel="apple-touch-icon-precomposed" sizes="144x144"
@@ -17,6 +17,7 @@
     <link rel="apple-touch-icon-precomposed"
           href="barceloneta-apple-touch-icon-precomposed.png" />
     <link rel="stylesheet" href="alma/css/alma.css">
+    <link rel="stylesheet" href="alma/css/alma-footer.css">
     <link rel="stylesheet" type="text/css" media="screen" href="alma/css/alma-hpp.css">
     <link rel="stylesheet" type="text/css" media="screen" href="alma/css/alma-status-page.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -32,21 +33,13 @@
     </section>
     <div class="outer-wrapper">
       <header id="content-header">
-        <div id="alma-mainnavigation-wrapper">
-            <div id="alma-mainnavigation">
-                <div id='alma-logo-div'>
-                    <a id="alma-portal-logo" title="Test Site" href="https://almascience-dev.nrao.edu/plone5">
-                        <img src="https://almascience-dev.nrao.edu/plone5/@@site-logo/alma-logo-text-zealous-crop.png" alt="Plone site" title="Plone site" />
-                    </a>
-                </div>
-                <div id='alma-menus'>
-                    menus
-                </div>
-            </div>
-     
-        </div>
         <div class="container">
           <header id="portal-top">
+                <div id='portal-header'>
+                  <div id='portal-searchbox'>
+                      <span class='loupe'>&#128269;</span>
+                  </div>
+                </div>
           </header>
           <div id="anonymous-actions">
           </div>
@@ -110,15 +103,21 @@
         </main><!--/row-->
       </div><!--/container-->
     </div> <!--/outer-wrapper -->
-    <!--
-      <footer id="portal-footer-wrapper">
-        <div class="container" id="portal-footer">
-          <div class="doormat row"></div>
-          <div class="copyright row"><div class="col-xs-12"></div></div>
-          <div class="colophon row"><div class="col-xs-12"></div></div>
-          <div class="site-actions row"><div class="col-xs-12"></div></div>
-        </div>
-      </footer>
-      -->
+    
+    <div id="alma-footer">    
+        <ul id="alma-siteactions">
+            <li id="siteaction-sitemap"><a href="../sitemap" title="Site Map">Site Map</a></li>
+            <li id="siteaction-accessibility"><a href="../accessibility-info" title="Accessibility">Accessibility</a></li>
+            <li id="siteaction-contact"><a href="../contact-info" title="Contact">Contact</a></li>
+            <li id="siteaction-privacy_statement"><a href="../alma-science-portal-privacy-statement" title="Privacy Statement">Privacy Statement</a></li>
+        </ul>
+        <ul id="alma-arcs">
+            <li id="alma-region">Region:</li>
+            <li title="East Asia"><a href="https://almascience.nao.ac.jp/">EA</a></li>
+            <li title="Europe"><a href="https://almascience.eso.org">EU</a></li>
+            <li title="North America"><a href="https://almascience.nrao.edu">NA</a></li>
+        </ul>
+    </div>    
+
   </body>
 </html>

@@ -39,3 +39,13 @@
 #alma-c1carryover-div {
  height: 100%;
 }
+
+.plone-nav li ul li a {
+    min-width: 14em;
+    display: inline-block;
+    width: max-content;
+}
+
+#portal-searchbox .searchSection {
+    color: white;
+}

@@ -11,6 +11,23 @@ $( document ).ready(function() {
         displayDefault();
     }
     console.log("ALMA_BASE_URL: " + ALMA_BASE_URL);
+    
+    $( ".loupe" ).hover(
+        function() {
+        $( '#searchGadget_form' ).show();
+        console.log("loupe handler IN");
+    }, function() {
+        console.log("loupe handler OUT");
+    });
+    
+    $( '#searchGadget_form' ).hover(
+        function() {
+        //$( '#searchGadget_form' ).show();
+        console.log("searchGadget_form handler IN");
+    }, function() {
+        $( '#searchGadget_form' ).hide();
+        console.log("searchGadget_form handler OUT");
+    });
 });
 
 function displayHomePage(){
