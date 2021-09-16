@@ -12,9 +12,10 @@ body {
 /*alma silhouette */
 #content-header > .container {
     margin-top: 0px;
-    background-image: url(../../alma/images/alma-silhouette.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    /*background-image: url(../../alma/images/alma-silhouette.png);*/
+    background-image: url(../../alma/images/almabanner_3_130px_wide.png);
+    background-repeatxx: no-repeat;
+    background-sizexx: 100% 100%;
     width: 100%;
     margin-top: 0px;
     margin-bottom: 0px;

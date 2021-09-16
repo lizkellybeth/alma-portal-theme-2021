@@ -1,7 +1,7 @@
 var ALMA_BASE_URL = "/";
 $( document ).ready(function() {
-    if ((window.location.pathname == "/plone5") || (window.location.pathname == "/plone5/"))   {
-        ALMA_BASE_URL = "/plone5/";
+    if ((window.location.pathname == "/portal") || (window.location.pathname == "/portal/"))   {
+        ALMA_BASE_URL = "/portal/";
         displayHomePage();
         
     } else if (window.location.pathname === "/"){
@@ -65,7 +65,10 @@ function getScienceHighlight(shURL){
             link = data["@id"]
             content = data["text"]["data"];
             image = data["image"]["download"];
-            image_caption = data["image_caption"];
+            image_caption = "";
+            if (data["image_caption"] != null) {
+                image_caption = data["image_caption"];
+            }
             description = data["description"];
             name = data["id"];
             date = data["effective"];
@@ -91,7 +94,8 @@ function getScienceHighlightURL(){
             xhr.setRequestHeader('Accept', 'application/json');
         },
         success: function(data) {
-            shURL = data["items"][0]["@id"];
+            console.log("DATA: " + data);
+            var shURL = data["items"][0]["@id"];
             getScienceHighlight(shURL);
         }
     });
