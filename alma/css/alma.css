@@ -49,11 +49,6 @@ body {
     height: 125px;
 }
 
-#alma-news-div > * .portletItem > * {
-    text-shadow: 0 2px 3px rgba(0, 40, 60, 0.5);
-    font-weight: 400;
-}
-
 #portal-breadcrumbs {
     display: none;
 }
@@ -126,7 +121,7 @@ div .row {
     border-width: 0px;
     width: 100%;
     height: 30em;
-    overflow: overlay; 
+    overflow: hidden; 
     margin-top: 0em;
     background-color: #e7e6e6;
     
@@ -140,35 +135,6 @@ div .row {
 
 #alma-col1.home {
     display: none;
-}
-
-#alma-news-div .portletWrapper.home {
-    display: inline-block;
-    margin-left: 20px;
-    vertical-align: top;
-}
-
-#alma-news-div .portletWrapper.home > * div {
-    background: rgba(76, 175, 80, 0.1);
-    border-top: 0px;
-    background-image: url(../../alma/images/eu-arc-nodes.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-/* top of news portlet */
-#alma-news-div  .portletWrapper.home .portlet .portletHeader  {
-    background: rgba(231, 230, 230, 0.1);
-        border-bottom: 0px;
-        font-weight: normal;
-}
-
-/* bottom of news portlet */
-#alma-news-div  .portletWrapper.home .portlet .portletFooter  {
-    background: rgba(231, 230, 230, 0.1);
-    background-colorxx: #00437f;
-    box-shadow: 0 0;
-    border-top: 0px;
 }
 
 ul#portal-globalnav.plone-nav li a {
@@ -186,18 +152,6 @@ ul#portal-globalnav.plone-nav li a {
 header {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
-}
-
-header.portletHeader {
-    margin: 0px;
-}
-
-#portletWrapper  > section > header {
-    padding-top: 2px;
-    padding-right: 15px;
-    padding-bottom: 2px;
-    padding-left: 15px;
-    margin: 0px;
 }
 
 #sci-hi-img {
@@ -233,65 +187,7 @@ header > .documentFirstHeading {
     margin-bottom: 0px;
 }
 
-/* observatory news */
-#alma-news-div .portlet.portletCollection.portlet-collection-observatory-news .portletContent {
-    height: 22em;
-    background-image: url(../../alma/images/observatory-news.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-#alma-news-div .portlet.portletCollection.portlet-collection-observatory-news .portletContent .portletItem a {
-    color: white;
-}
 
-/* eu arc news */
-#alma-news-div .portlet.portletCollection.portlet-collection-eu-arc-news .portletContent {
-    height: 22em;
-    background-image: url(../../alma/images/eu-arc-nodes.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    box-shadow: 0px;
-    margin-bottom: 0px;
-}
-#alma-news-div .portlet.portletCollection.portlet-collection-observatory-news .portletContent .portletItem a {
-    color: white;
-}
-
-/* nrao news */
-#alma-news-div .portlet.portletRss .portletContent {
-    height: 22em;
-    background-image: url(../../alma/images/eu-arc-nodes.jpgxx);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    box-shadow: 0px;
-    margin-bottom: 0px;
-}
-
-/* alma status */
-#alma-news-div .portlet.portletStaticText.portlet-static-status .portletContent {
-    height: 22em;
-    background-image: linear-gradient(180deg, rgba(255,255,255,.0) 32%, rgba(0,0,60,.3) 67%, rgba(0,0,60,.3) 100%), url('../../alma/images/alma-status.jpeg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    margin-bottom: 0px;
-    
-}
-#alma-news-div .portlet.portletStaticText.portlet-static-status .portletContent p > * {
-    color: white;
-}
-
-.portlet .portletStaticText .portlet-static-status {
-    background: rgba(231, 230, 230, 0.1);
-}
-
-.portletWrapper > aside {
-    margin-top: 0px;   
-    margin-bottom: 0px;   
-    margin-left: 0px;   
-    margin-right: 0px;  
-    box-shadow: 0px;
-
-}
 
 #alma-menus > #portal-globalnav-wrapper  {
     background-color: #00437f;
@@ -299,10 +195,6 @@ header > .documentFirstHeading {
     box-shadow: 0px 0px;
     margin-bottom: 0px;
     padding: 20px;
-}
-
-#alma-news-div > * .portlet {
-    box-shadow: 0px 0px;
 }
 
 #plone-document-byline {
@@ -347,13 +239,6 @@ header > .documentFirstHeading {
 
 .plone-navbar-nav > li label {
     display:none;
-}
-
-#alma-news-div .portlet .portletFooter {
-    padding-left: 0px;
-    padding-top: 10px;
-    padding-right: 15px;
-    padding-bottom: 10px;
 }
 
 #mainnavigation > * .plone-nav > * li a {

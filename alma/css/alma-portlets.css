@@ -1,0 +1,80 @@
+/************ PORTLETS *************/
+
+#alma-news-div header.portletHeader {
+    margin: 0px;
+    margin-top: 10px;
+    font-weight: normal;
+}
+#alma-news-div .portletWrapper.home {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+
+/************ observatory news ************/
+#alma-news-div .portlet.portletCollection.portlet-collection-observatory-news .portletContent {
+    height: 22em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+#alma-news-div .portlet.portletCollection.portlet-collection-observatory-news .portletContent .portletItem a {
+    color: white;
+    font-size: large;    
+    text-shadow: 2px 2px 1px black;
+}
+
+
+/************ eu arc news *************/
+#alma-news-div .portlet.portletCollection.portlet-collection-eu-arc-news .portletContent {
+    height: 22em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+#alma-news-div .portlet.portletCollection.portlet-collection-eu-arc-news .portletContent .portletItem a {
+    color: darkslategray;
+    font-size: large;        
+    text-shadowxx: 2px 2px 1px black;
+}
+
+
+/************ nrao/naoj RSS portlets *************/
+#alma-news-div .portlet.portletRss .portletContent {
+    height: 22em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+#alma-news-div .portlet .portletContent > ul li:hover {
+    background-color: unset !important;
+}
+#alma-news-div .portlet .portletContent > ul > * a  {
+    border-top: 0;
+    color: white;
+    font-size: large;
+    text-shadow: 2px 2px 1px black;
+}
+#alma-news-div .portlet .portletContent > ul > * time {
+    border-top: 0;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+}
+
+
+/************ alma status ************/
+#alma-news-div .portlet.portletStaticText.portlet-static-alma-status .portletContent {
+    height: 22em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+#alma-news-div .portlet.portletStaticText.portlet-static-alma-status .portletContent p > * {
+    color: white;
+    font-size: large;
+    text-shadow: 2px 2px 1px black;
+}
